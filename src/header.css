@@ -1,0 +1,71 @@
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    margin-bottom: 100px;
+    
+    
+  }
+  
+  .downloadMessage {
+    
+    display: flex;
+    align-items: center;
+    background: #f44336;
+    height: 40px;
+    padding: 8px 15px;
+   
+    margin: 10px 32px 32px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 80px;
+  }
+  .downloadText {
+    padding-right: 0px;
+    flex: 1;
+  }
+  
+  @media (max-width: 995px) {
+    .downloadMessage {
+      height:auto;
+      margin: 0px 32px 32px;
+      width:auto
+      
+    }
+  }
+
+.image{
+  height:38.4px;
+  width: auto;
+}
+
+
+
+.card{
+  flex-basis: 300px;
+  
+  background-color: white;
+  margin:30px 0px 0px 0px;
+  box-shadow:0 2px 5px 0 rgb(0,0,0,.16), 0 2px 10px 0 rgb(0,0,0,.12);
+  border-radius:5px;
+  display:flex;
+}
+
+.news{
+  height: 260px;;
+  width: 300px;
+  margin:10px;
+  border-radius:5px;
+  
+}
+
+.ContentText{
+  margin-top: 10px;
+  opacity: 80%;
+}
+
+.text{
+  font-size: 25px;
+  opacity: 80%;
+}
