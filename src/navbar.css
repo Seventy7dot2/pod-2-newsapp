@@ -1,0 +1,30 @@
+.nav {
+    background-color: white;
+    height: 71px;
+    box-shadow: 0px 1px 8px #888888;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 100px;
+    
+
+    
+    
+    
+  }
+  
+  .menu {
+    flex: 0.50;
+  }
+  
+  .logo{
+    position: absolute;
+
+  }
+
+
+
+  

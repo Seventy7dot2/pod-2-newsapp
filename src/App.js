@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import Footerz from "./footer";
+import Head from "./header";
+import Nav from "./navbar";
 import './App.css';
+import LoadMore from "./loadmore";
+import Card from "./ContentCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="#home">
+      <Nav/>
+      <Head/>
+      <LoadMore/>
+      <Footerz/>
     </div>
   );
 }
 
 export default App;
+
+
+
+
